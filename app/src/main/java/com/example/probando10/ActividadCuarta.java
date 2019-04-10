@@ -12,6 +12,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -76,8 +77,8 @@ public class ActividadCuarta extends AppCompatActivity {
         editFecha1 = (EditText)findViewById(R.id.editText13);
         editFecha2 = (EditText)findViewById(R.id.editText14);
 
-        Date fecha = new Date();
-        SimpleDateFormat hoy = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault());
+        final Date fecha = new Date();
+        final SimpleDateFormat hoy = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault());
         editFecha1.setText(hoy.format(fecha));
         editFecha2.setText(hoy.format(fecha));
 
@@ -166,6 +167,10 @@ public class ActividadCuarta extends AppCompatActivity {
                  }
                  textCuota.setText(String.valueOf(totalcuota));
                  textPagar.setText(String.valueOf(totalpagar));
+                 Calendar cal = Calendar.getInstance();
+                 cal.setTime(fecha);
+                 cal.set(Calendar.MONTH, Calendar.getInstance().get(Calendar.MONTH) +pla);
+                 editFecha2.setText(hoy.format(cal.getTime()));
              }
          }
      });
