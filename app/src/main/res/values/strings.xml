@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Probando 1.0</string>
+    <string name="saludo">Bienvenido</string>
+    <string name="boton">Tocame</string>
+    <string name="contraseña">Ingresar PASS</string>
+    <string name="texto">Miercoles</string>
+    <string name="titulo">Solicitub de Prestamo</string>
+    <string name="titulo2">Registro de Cliente</string>
+    <string name="nombre">Nombre*</string>
+    <string name="apellido">Apellido*</string>
+    <string name="telefoo">Telefono</string>
+    <string name="cedula">Cedula</string>
+    <string name="ocupacion">Ocupacion</string>
+    <string name="Direccion">Direccion*</string>
+    <string name="sexo">Sexo</string>
+    <string name="obligatorio">Campo Obligatorio</string>
+    <string name="titulo3">Registro de Credito</string>
+    <string name="montoCred">Monto Credito</string>
+    <string name="interes">Interes</string>
+    <string name="plazo">Plazo</string>
+    <string name="fecha">Fecha</string>
+    <string name="fechafin">Fecha Finalizacion</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="mPagar">Monto a Pagar</string>
+    <string name="mCuota">Monto por Cuota</string>
+
+    <string-array name="valores">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+    </string-array>
+
+    <string-array name="plazo">
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"25"</item>
+    </string-array>
+
+    <string-array name="Sexo">
+        <item>Femenino</item>
+        <item>Masculino</item>
+        <item>Otros</item>
+    </string-array>
+    <string name="title_activity_actividad_tercera">ActividadTercera</string>
+
+
+</resources>
